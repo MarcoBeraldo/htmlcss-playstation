@@ -1,0 +1,21 @@
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/*  upper header */
+
+.upper-header {
+    background-color: #000;
+}
+
+#logo-sony {
+    display: inline-block;
+    height: 20px;
+}
+
+/* bottom header */
