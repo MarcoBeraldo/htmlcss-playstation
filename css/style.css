@@ -5,6 +5,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 /*  upper header */
@@ -19,3 +20,29 @@ header {
 }
 
 /* bottom header */
+
+.dropdown {
+    position: static
+}
+
+.dropdown-menu {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.dropdown-menu>li {
+    display: inline-block;
+}
+
+.dropdown-item>p {
+    margin: 0 auto;
+    display: block
+}
+
+.navbar-ps5 {
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
