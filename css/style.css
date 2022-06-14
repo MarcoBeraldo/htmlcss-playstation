@@ -185,3 +185,21 @@ main {
 .social-img-group figure {
     max-width: 200px
 }
+
+/* footer */
+
+.footer-bg {
+    background-color: #00439C;
+}
+
+#language-globe {
+    max-height: 20px;
+}
+
+#sie-logo-img {
+    height: 70px;
+}
+
+#ps-logo-footer-img {
+    height: 70px;
+}
