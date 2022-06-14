@@ -179,3 +179,9 @@ main {
 #ps-now-logo-img {
     max-height: 80px
 }
+
+/* social section */
+
+.social-img-group figure {
+    max-width: 200px
+}
