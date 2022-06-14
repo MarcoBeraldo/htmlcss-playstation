@@ -69,6 +69,13 @@ main {
     width: 100%
 }
 
+.bg-jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 #jumbotron .jumbo-slides {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -100,7 +107,9 @@ main {
 
 /* Playstation 5 section */
 
-
+.inactive-border {
+    border-bottom: 2px solid transparent;
+}
 
 #playstation-5 figure:hover .active-border {
     border-bottom: 2px solid blue;
