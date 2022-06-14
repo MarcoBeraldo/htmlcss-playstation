@@ -1,5 +1,21 @@
+body {
+    overflow-x: hidden
+}
+
 img {
     max-width: 100%;
+}
+
+.btn:hover.btn-effect {
+    box-shadow: 0 0 0px 2px #fff inset;
+}
+
+.btn:hover.btn-effect-secondary {
+    box-shadow: 0 0 0px 2px #BEBCBB inset;
+}
+
+.btn:hover.btn-effect-blue {
+    box-shadow: 0 0 0px 2px blue inset;
 }
 
 /* header */
@@ -53,9 +69,7 @@ header {
     margin: 0 auto;
 }
 
-.btn:hover.btn-effect {
-    box-shadow: 0 0 0px 2px #fff inset;
-}
+
 
 /* main */
 
@@ -77,7 +91,6 @@ main {
 }
 
 #jumbotron .jumbo-slides {
-
     position: relative;
     height: 60vh;
 }
@@ -140,4 +153,29 @@ main {
 
 #now-out {
     background-color: #1F1F1F;
+}
+
+/* ps plus section */
+
+.bg-ps-plus {
+    background-color: #BEBCBB;
+}
+
+.ps-plus-logo {
+    height: 70px;
+}
+
+.img-ps-plus {
+    filter: drop-shadow(3px 3px 10px black);
+}
+
+/* ps now section */
+
+
+.ps-now-bg {
+    background-color: #161C3B;
+}
+
+#ps-now-logo-img {
+    max-height: 80px
 }
