@@ -1,3 +1,7 @@
+img {
+    max-width: 100%;
+}
+
 /* header */
 
 header {
@@ -6,6 +10,8 @@ header {
     left: 0;
     right: 0;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    z-index: 1;
 }
 
 /*  upper header */
@@ -45,4 +51,49 @@ header {
     height: 70px;
     display: block;
     margin: 0 auto;
+}
+
+.btn:hover.btn-effect {
+    box-shadow: 0 0 0px 2px #fff inset;
+}
+
+/* main */
+
+main {
+    margin-top: 112px
+}
+
+/* #jumbotron */
+
+#jumbotron {
+    width: 100%
+}
+
+#jumbotron .jumbo-slides {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60vh;
+}
+
+.slide-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#slide-title-img {
+    height: 70px;
+}
+
+.jumbo-carousel figure:hover img {
+    outline: 4px solid blue;
+    outline-offset: 3px;
+}
+
+.outlined {
+    outline: 4px solid blue;
+    outline-offset: 3px;
 }
