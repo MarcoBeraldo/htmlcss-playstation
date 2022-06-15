@@ -1,6 +1,4 @@
-body {
-    overflow-x: hidden
-}
+body {}
 
 img {
     max-width: 100%;
@@ -40,6 +38,8 @@ header {
     display: inline-block;
     height: 20px;
 }
+
+
 
 /* bottom header */
 
@@ -119,10 +119,12 @@ main {
 
 .inactive-border {
     border-bottom: 2px solid transparent;
+    filter: opacity(0.5)
 }
 
 #playstation-5 figure:hover .active-border {
     border-bottom: 2px solid blue;
+    filter: opacity(1);
 }
 
 
