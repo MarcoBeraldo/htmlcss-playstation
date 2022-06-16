@@ -77,7 +77,7 @@ main {
 /* #jumbotron */
 
 #jumbotron {
-    width: 100%
+    width: 100%;
 }
 
 .bg-jumbo {
@@ -89,14 +89,10 @@ main {
 
 #jumbotron .jumbo-slides {
     position: relative;
-    height: 60vh;
+    height: 700px;
 }
 
-.slide-title {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+.slide-title {}
 
 #slide-title-img {
     height: 70px;
@@ -139,13 +135,13 @@ main {
 }
 
 #games-slide-title-img {
-    width: 20vw;
+    height: 200px;
     min-width: 150px
 }
 
 #games-slider .games-slides {
-    position: relative;
-    height: 60vh;
+
+    height: 700px;
 }
 
 /* now-out section */
